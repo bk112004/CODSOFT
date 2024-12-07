@@ -1,0 +1,175 @@
+.page1 {
+    background-color: rgba(180, 248, 200, 0.6) !important;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+}
+
+.intro {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#name {
+    text-align: center;
+    font-weight: 300;
+    font-family: "Protest Revolution", serif;
+    margin-left: 400px;
+    font-size: 35px;
+}
+
+.first img {
+    height: 450px;
+    width: 500px;
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -150px;
+}
+
+.collapse #name {
+    font-style: normal;
+    color: linear-gradient(blue, yellow) !important;
+}
+
+.first .text {
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+
+.first .text h1 {
+    font-weight: 500px !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first {
+    display: inline-block;
+}
+
+.first .text #main {
+    font-family: "Lora", serif !important;
+    opacity: 0.8;
+}
+
+.first .text span {
+    font-size: 40px;
+}
+
+.first .icons i {
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+.first #main span {
+    font-size: 20px;
+}
+
+.first .button {
+    display: flex;
+}
+
+.first .button div {
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin-top: 90px;
+    margin-left: 150px;
+    text-align: center;
+    background-color: #ecf87f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600px;
+    color: blue;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.first .button div a {
+    text-decoration: none;
+}
+
+.page2 {
+    background: linear-gradient(#d4f1f4, #81b622, #A0E7E5);
+}
+
+.card-img-top {
+    /* border-radius: 1rem !important; */
+    /* we are adding important to overpower bootstrap styling. */
+    width: 100% !important;
+    background-size: cover !important;
+    height: 375px;
+    width: 500px !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.card {
+    height: 450px !important;
+    width: 500px !important;
+    box-shadow: 2px 7px 7px red;
+}
+
+main h2 , .page3 h2 , .page4 h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    opacity: 0.6;
+    
+
+}
+
+footer .me img {
+    height: 375px;
+    width: 275px;
+    border: 4px solid #fbe698;
+    margin-left: 700px;
+    border-radius: 5%;
+    margin-right: 150px;
+    margin-bottom: 30px;
+
+}
+
+.page3 {
+    background: linear-gradient(#bd97cb,rgba(180, 248, 200, 0.6));
+}
+
+.page4 {
+    background: linear-gradient(rgba(180, 248, 200, 0.6),#FBE7C6);
+}
+
+.page3 .skills .p2 img{
+    margin-left: 50px;
+    opacity: 0.8;
+}
+
+.page3 .skills .p6 img{
+    margin-left: 950px;
+    opacity: 0.8;
+    height: 380px;
+    width: 480px;
+}
+
+.page3 .skills .write li{
+    font-size: 20px;
+    color: white;
+}
+
+footer .contact{
+    margin-left: 150px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}

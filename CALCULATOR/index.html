@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css" integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_circle_left" />
+    <link href="https://www.fontspace.com/digital-7-font-f7087" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen" id="res">0</div>
+        <div class="entries" id="AC" onclick="Clear()"><b>AC</b></div>
+        <div class="entries" onclick="Backspace()"><span class="material-symbols-outlined">
+            arrow_circle_left
+            </span>
+        </div>
+        <div class="entries" onclick="Solve('%')">%</div>
+        <div class="entries" onclick="Solve('/')">/</div>
+        <div class="entries" onclick="Solve('7')">7</div>
+        <div class="entries" onclick="Solve('8')">8</div>
+        <div class="entries" onclick="Solve('9')">9</div>
+        <div class="entries" onclick="Solve('*')">*</div>
+        <div class="entries" onclick="Solve('4')">4</div>
+        <div class="entries" onclick="Solve('5')">5</div>
+        <div class="entries" onclick="Solve('6')">6</div>
+        <div class="entries" onclick="Solve('-')">-</div>
+        <div class="entries" onclick="Solve('1')">1</div>
+        <div class="entries" onclick="Solve('2')">2</div>
+        <div class="entries" onclick="Solve('3')">3</div>
+        <div class="entries" onclick="Solve('+')" id="plus">+</div>
+        <div class="entries" onclick="Solve('0')">0</div>
+        <div class="entries" onclick="Solve('.')">.</div>
+        <div class="entries" onclick="Result()">=</div>   
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

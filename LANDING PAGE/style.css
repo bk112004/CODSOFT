@@ -1,0 +1,129 @@
+body {
+    background-image: url("scenery.png");
+    background-size: cover;
+}
+
+
+
+.navbar {
+    opacity: 0.6 !important;
+}
+
+.navbar .collapse {
+    margin-left: 450px !important;
+
+}
+
+.navbar .collapse li a {
+    font-weight: 900px !important;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+    margin-left: 2px;
+
+}
+
+.navbar h4 {
+    font-family: "Cormorant", serif !important;
+    color: red !important;
+    margin-left: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-right: 40px;
+}
+
+main .text {
+    font-size: 125px;
+    background: linear-gradient(to left, violet,
+            indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 50px;
+    line-height: 1.2;
+    display: inline-block;
+    font-family: "Lora", serif;
+}
+
+main .text img {
+    height: 250px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-top: -110px;
+    box-shadow: 2px 5px 5px #e7f2f8;
+}
+
+main .sub {
+    color: #efeee9;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #efc081;
+    height: 125px;
+    width: 800px;
+    background-color: rgba(128, 128, 128, 0.7);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px blue;
+}
+
+footer .out {
+    height: 100px;
+    width: 1350px;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-top: 2px solid White;
+    display: flex;
+}
+
+footer .in img {
+    height: 45px;
+    width: 45px;
+}
+
+footer .in {
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+footer .explore{
+    margin-top: 35px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    margin-left: 300px;
+    background:linear-gradient(aqua,#81b622) ;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+footer .explore a {
+    text-decoration: none;
+    color:white;
+}
+
+footer .out .queries{
+    margin-top: 15px;
+    font-size: 20px;
+    display: flex;
+    font-weight: 500px;
+    align-items: center;
+    color:white;
+    margin-left: 190px;
+}
